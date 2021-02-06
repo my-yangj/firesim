@@ -6,15 +6,16 @@
 
 #### API Impact
 
-<!-- How would this affect the current API? Does this add, extend, deprecate, remove, or break any existing API? -->
+<!-- Roughly, how would this affect the current API or user-facing interfaces? (extend, deprecate, remove, or break) -->
+<!-- Of note: Manager CLI, targetutils API, Bridge API, Platform Config Behavior -->
 
 #### Verilog / AGFI Compatability
 
-<!-- Does this change any generated Verilog, or the simulator memory map?  -->
+<!-- Does this change any generated Verilog in default targets, or the simulator memory map?  -->
 
 #### Release Notes
 
-<!-- You'll copy text from here to the dev-to-master PR.  -->
+<!-- You'll copy text from here to the dev-to-master PR. Alternatively, use your PR title  -->
 
 ### Contributor Checklist
 
@@ -27,9 +28,9 @@
 - [ ] (If applicable) Did you regenerate and publicly share AGFIs?
 <!-- Do this if this PR is a bugfix that should be applied to master -->
 - [ ] (If applicable) Did you mark the PR as "Please Backport"?
-- [ ] (On approval) Did you update release notes in the dev-to-master PR ?
+- [ ] (On merge) Did you update release notes in the dev-to-master PR ?
 
 ### Reviewer Checklist (only modified by reviewer)
 - [ ] Did you add the appropriate labels?
-- [ ] Did you mark the proper milestone (1.2.x, 1.3.0, 1.4.0) ?
+- [ ] Did you mark the proper milestone (1.12.0, 1.13.0) ?
 - [ ] Did you check whether all relevant Contributor checkboxes have been checked?
